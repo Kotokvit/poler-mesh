@@ -30,8 +30,12 @@
 pub mod config;
 pub mod hub;
 pub mod http;
+pub mod keys;
+pub mod link;
 pub mod mock;
 pub mod node;
+pub mod relay;
+pub mod wire;
 
 /// Версия протокола MCP, на которой говорит сетка.
 pub const PROTOCOL_VERSION: &str = "2025-06-18";
